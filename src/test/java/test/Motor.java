@@ -6,7 +6,7 @@ public class Motor {
     public int registro;
 
     public void cambiarRegistro(int nuevoRegistro){
-        registro = nuevoRegistro;
+        this.registro = nuevoRegistro;
     }
 
     public void asignarTipo(String nuevoTipo){
